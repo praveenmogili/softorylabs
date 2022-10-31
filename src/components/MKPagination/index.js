@@ -28,8 +28,12 @@ import MKPaginationItemRoot from "components/MKPagination/MKPaginationItemRoot";
 const Context = createContext();
 
 const MKPagination = forwardRef(
-  ({ item, variant, color, size, active, children, placement, ...rest }, ref) => {
-    const context = item ? useContext(Context) : null;
+  ({ item=false, variant, color, size, active, children, placement, ...rest }, ref) => {
+    const context = useContext(Context);
+    if(!item) {
+      context = null;
+    }
+    // const context = item ? useContext(Context) : null;
     const paginationSize = context ? context.size : null;
     let placementValue = "flex-end";
 
