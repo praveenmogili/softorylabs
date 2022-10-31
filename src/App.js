@@ -45,12 +45,14 @@ export default function App() {
       }
 
       if (route.route) {
-        console.log("Found route ", route.route);
+        // console.log("Found route ", route.route);
         return <Route exact path={route.route} element={route.component} key={route.key} />;
       }
 
       return null;
     });
+
+  console.log(routes);
 
   return (
     <ThemeProvider theme={theme}>
