@@ -28,9 +28,9 @@ import MKPaginationItemRoot from "components/MKPagination/MKPaginationItemRoot";
 const Context = createContext();
 
 const MKPagination = forwardRef(
-  ({ item=false, variant, color, size, active, children, placement, ...rest }, ref) => {
-    const context = useContext(Context);
-    if(!item) {
+  ({ item, variant, color, size, active, children, placement, ...rest }, ref) => {
+    let context = useContext(Context);
+    if (item === false) {
       context = null;
     }
     // const context = item ? useContext(Context) : null;
