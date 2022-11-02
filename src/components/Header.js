@@ -11,9 +11,9 @@ const Header = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Link to={"/"}>
+        <LinkContainer to={"/"}>
           <Navbar.Brand href="#home">Mythics Cloud Portal</Navbar.Brand>
-        </Link>
+        </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

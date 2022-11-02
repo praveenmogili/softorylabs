@@ -39,3 +39,8 @@
     font-size: 40px;
     color: black;
 }
+
+.bg-cover {
+    background-size: cover !important;
+}
+
