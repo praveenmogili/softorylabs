@@ -1,178 +1,70 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ad7e589d-7716-4190-981f-3258aaa42d8c/deploy-status)](https://app.netlify.com/sites/gatsby-starter-material-business-markdown/deploys)
+# Getting Started with Create React App
 
-<p align="center">
-  <a href="https://gatsby-starter-material-business-markdown.netlify.com" target="_blank">
-    <img alt="ANOUN" src="./content/assets/gatsby-starter-material-business-markdown.netlify.com.png" />
-  </a>
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Gatsby Starter by ANOUN | Material Business - Markdown
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-* [MDC React Components](https://github.com/material-components/material-components-web-react)
-* [MDC Theming](https://material.io/develop/web/docs/theming/)
-* Modern Design
-* Home Page
-* About Page
-* Contact Page
-  * [Formspark](https://formspark.io/) contact form
-* Blog
-  * Featured images for blog posts
-  * Markdown post format
-* SEO
-  * Open Graph Tags
-  * Dynamic Titles and Descriptions
-  * Sitemap.xml
-* Prettier code formatting
-* CSS Fluid Typography
-* PWA Support
-* Google Analytics Support
+### `npm start`
 
-## Performance Test
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-[View Lighthouse Test Results](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://gatsby-starter-material-business-markdown.netlify.com/)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Deploy to Netlify
+### `npm test`
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/gatsby-starter-material-business-markdown)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Customization
+### `npm run build`
 
-### Website Data
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Edit `config/website.js`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```
-module.exports = {
-  // SEO
-  title: "Gatsby Starter #1 | ANOUN | Markdown", // Navigation and Site Title
-  titleTemplate: "%s · Gatsby Starter #1", // Template for Page Titles
-  description: "This is Gatsby Starter #1 by ANOUN with content sourcing from Markdown files. Don't be shy, clone it on Github if you'd like!",
-  siteUrl: "https://gatsby-starter-anoun-1-markdown.netlify.com", // Domain of your site. No trailing slash!
-  image: "/images/anoun-share-image.png", // Used for SEO Share Image
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-  // Manifest
-  icon: "src/favicon.png", // Used for manifest favicon generation
-  short_name: "ANOUN", // shortname for manifest. MUST be shorter than 12 characters
-  owner: "ANOUN", // Author
-  theme_color: "#663399",
-  background_color: "#ffffff",
+### `npm run eject`
 
-  // Social and Analytics
-  twitterUsername: "@anouncompany", // Twitter Username
-  googleAnalyticsID: "", // Google Analytics Tag ID
-}
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Theme
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Edit `src/styles/theme.scss`
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```
-:root {
-    --mdc-theme-primary: #663399;
-    --mdc-theme-on-primary: #ffffff;
-    --mdc-theme-secondary: #000000;
-    --mdc-theme-on-secondary: #ffffff;
-    --mdc-theme-surface: #fefefe;
-    --mdc-theme-background: #ffffff;
-    --mdc-theme-on-background: #000000;
-}
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Typography
+## Learn More
 
-Edit `config/typography.js`
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```
-import Typography from "typography"
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-const typography = new Typography({
-  title: "Gatsby Starter Material Business",
-  baseFontSize: "18px",
-  baseLineHeight: 1.666,
-  headerFontFamily: [
-    "Lora",
-    "-apple-system",
-    "BlinkMacSystemFont",
-    "Segoe UI",
-    "Roboto",
-    "Helvetica",
-    "Arial",
-    "sans-serif",
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-  ],
-  bodyFontFamily: [
-    "Lato",
-    "-apple-system",
-    "BlinkMacSystemFont",
-    "Segoe UI",
-    "Roboto",
-    "Helvetica",
-    "Arial",
-    "sans-serif",
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-  ],
-  scaleRatio: 3.157,
-  headerWeight: 400,
-  overrideStyles: () => ({
-    img: {
-      marginBottom: 0,
-    },
-  }),
-})
+### Code Splitting
 
-export default typography
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### About Page
+### Analyzing the Bundle Size
 
-Edit `content/pages/about.md`
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```
-# About
+### Making a Progressive Web App
 
-Welcome to the Material Business Starter by <span class="anoun-title">[ANOUN](https://anoun.company)</span>! This is the first in our series of Gatsby Starters inspired by Google's [Material Design](https://material.io). The Material Business starter features all the basics for a typical business' website such as a home page, about page, contact page with an email form, and a fully featured blog. This one is sourced from Markdown but we'll have others that use a headless CMS (stay tuned). So don't be shy, feel free to clone the [Github Repo](https://github.com/ANOUN/gatsby-starter-material-business-markdown) and get started!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-...
+### Advanced Configuration
 
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Contact Form
+### Deployment
 
-Create a form at [Formspark.io](https://formspark.io)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Replace "YOUR-FORM-ID" with your formspark form's ID in `src/components/ContactForm/ContactForm.js`
+### `npm run build` fails to minify
 
-```
-...
-
-  handleSubmit = event => {
-    event.preventDefault()
-    fetch('https://submit-form.com/YOUR-FORM-ID', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json'
-      },
-      body: JSON.stringify(this.state)
-    })
-      .then(this.handleSuccess)
-      .catch(function(error) {
-        console.error(error)
-      })
-  }
-...
-```
-
-## Credits
-
-Designed by [Jaydan Urwin](https://jaydanurwin.com)
-
-Made in Idaho
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

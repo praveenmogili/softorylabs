@@ -1,0 +1,41 @@
+.jumbo-image {
+    background-image:url(https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg);
+    height: 400px;
+}
+
+
+.jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbo-image-ing{
+    background-image: url(https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg);
+    height: 200px;
+
+}
+
+.jumbo-image-meal{
+    background-image: url(https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg);
+    height: 240px;
+
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Goldman', cursive;
+    font-size: 60px;
+    color: red;
+}
+
+.centered-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Goldman', cursive;
+    font-size: 40px;
+    color: red;
+}
