@@ -10,15 +10,25 @@ const  Home = () => {
   return (
       <div>
         <Header />
-        <div style={{background: "url(https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg)"}} class="jumbo-image bg-cover text-white">
+        {/* <div style={{background: "url(https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg)"}} class="jumbo-image bg-cover text-white">
             <div class="container py-5 text-center">
-                {/* <strong><h1 class="display-4 font-weight-bold">Mythics Emergent Group</h1></strong> */}
             </div>
-        </div>
+        </div> */}
+
+    <Card className="bg-dark text-white">
+      <Card.Img src="https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg" alt="Card image" />
+      <Card.ImgOverlay>
+        <Card.Title>Mythics Inc.</Card.Title>
+        <Card.Text>
+          
+        </Card.Text>
+        <Card.Text>Last updated 3 mins ago</Card.Text>
+      </Card.ImgOverlay>
+    </Card>
 
         <div class="container py-5">
             <div class="row">
-                <div className='col-4'>
+                <div className='col-lg-4 col-m-6 col-s 12'>
                     <Card >
                         <Card.Img variant="top" src="mythics.png" />
                         <Card.Body>
@@ -29,7 +39,7 @@ const  Home = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className='col-4'>
+                <div className='col-lg-4 col-m-6 col-s 12'>
                     <Card >
                         <Card.Img variant="top" src="mythics.png" />
                         <Card.Body>
@@ -40,7 +50,7 @@ const  Home = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className='col-4'>
+                <div className='col-lg-4 col-m-6 col-s 12'>
                     <Card >
                         <Card.Img variant="top" src="mythics.png" />
                         <Card.Body>
