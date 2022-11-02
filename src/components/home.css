@@ -28,7 +28,7 @@
     align-items: center;
     font-family: 'Goldman', cursive;
     font-size: 60px;
-    color: red;
+    color: black;
 }
 
 .centered-sub {
@@ -37,5 +37,5 @@
     align-items: center;
     font-family: 'Goldman', cursive;
     font-size: 40px;
-    color: red;
+    color: black;
 }
