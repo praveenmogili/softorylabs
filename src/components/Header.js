@@ -28,6 +28,7 @@ const Header = () => {
             <Offcanvas.Title>Mythics Cloud Portal</Offcanvas.Title>
             </LinkContainer>
           </Offcanvas.Header>
+          <Offcanvas.Body>
           <Nav className="me-auto">
             <LinkContainer to="/">
                 <Nav.Link className='justify-content-end'>Home</Nav.Link>
@@ -39,6 +40,7 @@ const Header = () => {
                 <Nav.Link>Contact Us</Nav.Link>
             </LinkContainer>
           </Nav>
+          </Offcanvas.Body>
         </Offcanvas>
       </Navbar.Collapse>
       </Container>
