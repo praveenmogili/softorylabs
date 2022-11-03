@@ -22,16 +22,19 @@ const Header = () => {
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow} />
         <Navbar.Collapse id="basic-navbar-nav">
-        <Offcanvas show={show} onHide={handleClose} responsive="lg" backdrop="true" placement='top'>
+          {/*This totally empty navbar with the class 'me-auto' is significant. */}
+        <Nav className="me-auto">
+        </Nav>
+        <Offcanvas show={show} onHide={handleClose} responsive="lg" backdrop="true" placement='end'>
           <Offcanvas.Header closeButton>
           <LinkContainer to={"/"}>
             <Offcanvas.Title>Mythics Cloud Portal</Offcanvas.Title>
             </LinkContainer>
           </Offcanvas.Header>
           <Offcanvas.Body>
-          <Nav className="me-auto">
+          <Nav className="ms-auto" style={{ width: "100%" }}>
             <LinkContainer to="/">
-                <Nav.Link className='justify-content-end'>Home</Nav.Link>
+                <Nav.Link >Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/about">
                 <Nav.Link>About Us</Nav.Link>
