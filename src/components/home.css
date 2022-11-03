@@ -44,3 +44,16 @@
     background-size: cover !important;
 }
 
+/* .img-size {
+    height: 10%;
+    width: 10%;
+    border-radius: 100%;
+} */
+
+.image-cropper {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 90%;
+}

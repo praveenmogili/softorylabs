@@ -1,8 +1,6 @@
-import { NavItem } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {Link} from 'react-router-dom'
 import {LinkContainer} from 'react-router-bootstrap'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import {useState} from 'react';
@@ -18,7 +16,9 @@ const Header = () => {
     <Navbar bg="light" expand="lg">
       <Container>
         <LinkContainer to={"/"}>
-          <Navbar.Brand href="#home">Mythics Cloud Portal</Navbar.Brand>
+          {/* <Navbar.Brand> */}
+            <img className='image-cropper' src="Logo.svg" alt="React Logo" />
+          {/* </Navbar.Brand> */}
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow} />
         <Navbar.Collapse id="basic-navbar-nav">

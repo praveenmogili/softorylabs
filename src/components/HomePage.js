@@ -14,15 +14,12 @@ const  Home = () => {
             <div class="container py-5 text-center">
             </div>
         </div> */}
+        
 
     <Card className="bg-dark text-white">
       <Card.Img src="https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg" alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>Mythics Inc.</Card.Title>
-        <Card.Text>
-          
-        </Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
       </Card.ImgOverlay>
     </Card>
 
