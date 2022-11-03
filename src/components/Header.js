@@ -37,7 +37,7 @@ const Header = () => {
                 <Nav.Link >Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/about">
-                <Nav.Link>About Us</Nav.Link>
+                <Nav.Link>Why Us</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contact">
                 <Nav.Link>Contact Us</Nav.Link>

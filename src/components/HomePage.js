@@ -10,21 +10,16 @@ const  Home = () => {
   return (
       <div>
         <Header />
-        {/* <div style={{background: "url(https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg)"}} class="jumbo-image bg-cover text-white">
-            <div class="container py-5 text-center">
-            </div>
-        </div> */}
-        
-
-    <Card className="bg-dark text-white">
-      <Card.Img src="https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg" alt="Card image" />
-      <Card.ImgOverlay>
-        <Card.Title>Softory Labs</Card.Title>
-        <Card.Text>
-          Innovate. Create. Automate.
-        </Card.Text>
-      </Card.ImgOverlay>
-    </Card>
+    
+        <Card className="bg-dark text-white">
+        <Card.Img src="https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg" alt="Card image" />
+        <Card.ImgOverlay>
+            <Card.Title>Softory Labs</Card.Title>
+            <Card.Text>
+            Innovate. Create. Automate.
+            </Card.Text>
+        </Card.ImgOverlay>
+        </Card>
 
         <div class="container py-5">
             <div class="row">
