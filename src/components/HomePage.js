@@ -27,7 +27,7 @@ const  Home = () => {
             <div class="row">
                 <div className='col-lg-4 col-m-6 col-s 12'>
                     <Card >
-                        <Card.Img variant="top" src="mythics.png" />
+                        <Card.Img variant="top" src="Logo.svg" />
                         <Card.Body>
                             <Card.Title>DevOps Solution</Card.Title>
                             <Card.Text>
@@ -38,7 +38,7 @@ const  Home = () => {
                 </div>
                 <div className='col-lg-4 col-m-6 col-s 12'>
                     <Card >
-                        <Card.Img variant="top" src="mythics.png" />
+                        <Card.Img variant="top" src="Logo.svg" />
                         <Card.Body>
                             <Card.Title>Cloud Consulting</Card.Title>
                             <Card.Text>
@@ -49,7 +49,7 @@ const  Home = () => {
                 </div>
                 <div className='col-lg-4 col-m-6 col-s 12'>
                     <Card >
-                        <Card.Img variant="top" src="mythics.png" />
+                        <Card.Img variant="top" src="Logo.svg" />
                         <Card.Body>
                             <Card.Title>Infrastrucutre Patching</Card.Title>
                             <Card.Text>

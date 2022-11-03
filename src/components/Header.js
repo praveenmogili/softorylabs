@@ -22,7 +22,7 @@ const Header = () => {
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow} />
         <Navbar.Collapse id="basic-navbar-nav">
-        <Offcanvas show={show} onHide={handleClose} responsive="lg" backdrop="true">
+        <Offcanvas show={show} onHide={handleClose} responsive="lg" backdrop="true" placement='top'>
           <Offcanvas.Header closeButton>
           <LinkContainer to={"/"}>
             <Offcanvas.Title>Mythics Cloud Portal</Offcanvas.Title>
