@@ -12,13 +12,13 @@ const  Home = () => {
         <Header />
     
         <Card className="bg-dark text-white">
-        <Card.Img src="https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg" alt="Card image" />
-        <Card.ImgOverlay>
-            <Card.Title>Softory Labs</Card.Title>
-            <Card.Text>
-            Innovate. Create. Automate.
-            </Card.Text>
-        </Card.ImgOverlay>
+            <Card.Img src="https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg" alt="Card image" />
+            <Card.ImgOverlay>
+                <Card.Title>Softory Labs</Card.Title>
+                <Card.Text>
+                Innovate. Create. Automate.
+                </Card.Text>
+            </Card.ImgOverlay>
         </Card>
 
         <div class="container py-5">

@@ -39,8 +39,14 @@ const Header = () => {
             <LinkContainer to="/about">
                 <Nav.Link>Why Us</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/contact">
-                <Nav.Link>Contact Us</Nav.Link>
+            <LinkContainer to="/story">
+                <Nav.Link>Our Story</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/howwedoit">
+                <Nav.Link>How We Do It</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/careers">
+                <Nav.Link>Careers</Nav.Link>
             </LinkContainer>
           </Nav>
           </Offcanvas.Body>
