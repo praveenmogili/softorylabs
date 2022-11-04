@@ -11,7 +11,7 @@ import Story from './components/Story';
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='container-fluid'>
+      <div >
       <Routes>
         <Route path={"/"} element={<Home/>}/>
         <Route path={"/about"} element={<AboutUs/>}/>

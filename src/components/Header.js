@@ -13,7 +13,7 @@ const Header = () => {
   const handleShow = () => setShow(true);
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="black" expand="lg" variant='dark'>
       <Container>
         <LinkContainer to={"/"}>
           {/* <Navbar.Brand> */}
