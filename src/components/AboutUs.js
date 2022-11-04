@@ -72,7 +72,7 @@ const AboutUs = () => {
                 {/* <!-- Team item--> */}
                 <div class="col-xl-3 col-sm-6 mb-5">
                     <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
-                    <h5 class="mb-0">Manuella Nevoresky</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                    <h5 class="mb-0">Raju</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
                     </div>
                 </div>
                 {/* <!-- End--> */}
@@ -80,7 +80,7 @@ const AboutUs = () => {
                 {/* <!-- Team item--> */}
                 <div class="col-xl-3 col-sm-6 mb-5">
                     <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
-                    <h5 class="mb-0">Samuel Hardy</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                    <h5 class="mb-0">Raju</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
                     </div>
                 </div>
                 {/* <!-- End--> */}
@@ -88,7 +88,7 @@ const AboutUs = () => {
                 {/* <!-- Team item--> */}
                 <div class="col-xl-3 col-sm-6 mb-5">
                     <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
-                    <h5 class="mb-0">Tom Sunderland</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                    <h5 class="mb-0">Raju</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
                     </div>
                 </div>
                 {/* <!-- End--> */}
@@ -96,7 +96,7 @@ const AboutUs = () => {
                 {/* <!-- Team item--> */}
                 <div class="col-xl-3 col-sm-6 mb-5">
                     <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
-                    <h5 class="mb-0">John Tarly</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                    <h5 class="mb-0">Raju</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
                     </div>
                 </div>
                 {/* <!-- End--> */}
