@@ -51,11 +51,12 @@
 } */
 
 .image-cropper {
-    width: 10%;
-    height: 10%;
-    position: relative;
-    overflow: hidden;
-    border-radius: 100%;
+    width: 11%;
+    height: 11%;
+    /* position: relative; */
+    /* overflow: hidden; */
+    border-radius: 20%;
+    float: left;
 }
 
 .scroll {
