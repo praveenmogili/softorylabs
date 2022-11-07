@@ -1,6 +1,5 @@
 
 import { SocialIcon } from "react-social-icons";
-import FloatingButton from "./FloatingActionButton";
 
 const Footer = () => {
     return (
@@ -72,9 +71,6 @@ const Footer = () => {
                         <SocialIcon url="https://www.instagram.com" bgColor="black" fgColor="white"/>
                     
                     </div>
-                    {/* <div className="f-end">
-                        <FloatingButton />
-                    </div> */}
                 </div>
             </footer>
         </>

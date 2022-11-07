@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button, Link } from 'react-floating-action-button'
+import { Container, Button } from 'react-floating-action-button'
 
 const FloatingButton = () => {
     return (
