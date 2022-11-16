@@ -3,7 +3,6 @@ import Header from './Header';
 import './home.css'
 import Card from 'react-bootstrap/Card';
 
-import '../mythics.png';
 import ImgCarousel from './ImgCarousel';
 
 const  Home = () => {
@@ -14,16 +13,6 @@ const  Home = () => {
         <br/>
 
         <ImgCarousel />
-    
-        {/* <Card className="bg-dark text-white">
-            <Card.Img src="https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg" alt="Card image" />
-            <Card.ImgOverlay>
-                <Card.Title>Softory Labs</Card.Title>
-                <Card.Text>
-                Innovate. Create. Automate.
-                </Card.Text>
-            </Card.ImgOverlay>
-        </Card> */}
 
         <div class="container py-5">
             <div class="row">
