@@ -16,42 +16,50 @@ const Header = () => {
     <Navbar bg="black" expand="lg" variant='dark'>
       <Container>
         <LinkContainer to={"/"}>
-          {/* <Navbar.Brand> */}
             <img className='image-cropper' src="Logo.svg" alt="React Logo" />
-          {/* </Navbar.Brand> */}
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow} />
         <Navbar.Collapse id="basic-navbar-nav">
-          {/*This totally empty navbar with the class 'me-auto' is significant. */}
-        <Nav className="me-auto">
-        </Nav>
-        <Offcanvas show={show} onHide={handleClose} responsive="lg" backdrop="true" placement='end'>
-          <Offcanvas.Header closeButton>
-          <LinkContainer to={"/"}>
-            <Offcanvas.Title>Mythics Cloud Portal</Offcanvas.Title>
-            </LinkContainer>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-          <Nav className="ms-auto" style={{ width: "100%" }}>
-            <LinkContainer to="/">
-                <Nav.Link >Home</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/about">
-                <Nav.Link>Why Us</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/story">
-                <Nav.Link>Our Story</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/howwedoit">
-                <Nav.Link>How We Do It</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/careers">
-                <Nav.Link>Careers</Nav.Link>
-            </LinkContainer>
+          
+          <Nav className="me-auto">
           </Nav>
-          </Offcanvas.Body>
-        </Offcanvas>
-      </Navbar.Collapse>
+
+          <Offcanvas show={show} onHide={handleClose} responsive="lg" backdrop="true" placement='end'>
+            <Offcanvas.Header closeButton>
+              <LinkContainer to={"/"}>
+                <Offcanvas.Title>Softory Labs</Offcanvas.Title>
+              </LinkContainer>
+            </Offcanvas.Header>
+            
+            <Offcanvas.Body>
+              <Nav className="ms-auto" style={{ width: "100%" }}>
+
+                <LinkContainer to="/">
+                    <Nav.Link >Home</Nav.Link>
+                </LinkContainer>
+                
+                <LinkContainer to="/about">
+                    <Nav.Link>Why Us</Nav.Link>
+                </LinkContainer>
+                
+                <LinkContainer to="/story">
+                    <Nav.Link>Our Story</Nav.Link>
+                </LinkContainer>
+                
+                <LinkContainer to="/howwedoit">
+                    <Nav.Link>How We Do It</Nav.Link>
+                </LinkContainer>
+                
+                <LinkContainer to="/careers">
+                    <Nav.Link>Careers</Nav.Link>
+                </LinkContainer>
+
+              </Nav>
+            </Offcanvas.Body>
+
+          </Offcanvas>
+
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
