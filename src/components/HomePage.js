@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from './Header';
 import './home.css'
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 
 import ImgCarousel from './ImgCarousel';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const  Home = () => {
 
@@ -14,82 +15,189 @@ const  Home = () => {
 
         <ImgCarousel />
 
-        <div class="container py-5">
-            <div class="row">
-                <div className='col-lg-4 col-m-6 col-s 12'>
-                    <Card >
-                        <Card.Img variant="top" src="Logo.svg" />
-                        <Card.Body>
-                            <Card.Title><strong>What we offer</strong></Card.Title>
-                            <Card.Text>
-                            Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.
-                            </Card.Text>
-                            <Card.Text>
-                            Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.
-                            <ul>
-                                <li>Software Development more modular</li>
-                                <li>Assembly Line development means a standardized Quality driven software</li>
-                                <li>Repeatable software activities lead to higher quality at lower cost</li>
-                                <li>Software can be bought as a modular unit exactly like buying a Modular Kitchen</li>
-                                <li>Like Cloud Storage on a monthly basis, software can be bought on a subscription</li>
-                                <li>Identifiable, repeatable development activities can be bundled into a Monthly Subscription</li>
-                                <li>Increased estimation accuracy, and no budget overruns</li>
-                            </ul>
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className='col-lg-4 col-m-6 col-s 12'>
-                    <Card >
-                        <Card.Img variant="top" src="Logo.svg" />
-                        <Card.Body>
-                            <Card.Title><strong>What You See is What You Get</strong></Card.Title>
-                            <Card.Text>
-                            We manage the worries of reporting, follow-up, monitoring, change management, deadlines, expediting and prioritizing deliverables seamlessly with your business leaders.
-                            <ul>
-                                
-                                <li>Software factory where you buy Software Labs Subscription Units</li>
-                                <li>Complete control of your Agile Project</li>
-                                <li>Comprehensive end-to-end Cloud Development & Management</li>
-                                <li>Project Management Services from Project Initiation, Planning, Execution, Monitoring & Control and Closing</li>
-                                <li>Your focus can be on business, while we manage Application Development and Management</li>
-                                <li>Full Stack Managed Remote Service Units, including Engineers & Developers, Technical Managers and Project Managers</li>
+        <div className='container py-5'>
+            <div className='row'>
+                <div class="col-lg-6">
+                    <h2>What We Offer</h2>
+                    <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
+                    <br/>
+                    <p class=" text-muted mb-0" >Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.</p>
+                    
+                    <div>
+                        <ul class=" fa-ul text-muted mb-0">
+                            <li><FontAwesomeIcon icon="fa-solid fa-check" /> Software Development more modular</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Assembly Line development means a standardized Quality driven software</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Repeatable software activities lead to higher quality at lower cost</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Software can be bought as a modular unit exactly like buying a Modular Kitchen</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Like Cloud Storage on a monthly basis, software can be bought on a subscription</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Identifiable, repeatable development activities can be bundled into a Monthly Subscription</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Increased estimation accuracy, and no budget overruns</li>
 
-                            </ul>
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                        </ul>
+                    </div>
                 </div>
-                <div className='col-lg-4 col-m-6 col-s 12'>
-                    <Card >
-                        <Card.Img variant="top" src="Logo.svg" />
-                        <Card.Body>
-                            <Card.Title><strong>A Softory Labs Unit</strong></Card.Title>
-                            <Card.Text>
-                            Every Unit optimally designed for small Agile Teams, waiting for your Business Stakeholder to join and complete the Team!
-                            </Card.Text>
-                            <Card.Text>
-                                <strong>Mix</strong>
-                                <ul>
-                                    <li>Cloud Developers -4</li>
-                                    <li>Principal DevOps Lead – 1</li>
-                                    <li>Project Manager – 0.5</li>
-                                </ul>
-                            </Card.Text>
-                            <Card.Text>
-                            <strong>Bigger Projects with more Stories to develop can have multiple Units</strong>
-                            </Card.Text>
-                            <Card.Text>
-                            <strong>Flexibility of Softory Labs Unit: Businesses can prioritize activities every month, add stories or remove and modify them in Agile Development</strong>
-                            </Card.Text>
-                            <Card.Text>
-                            <strong>Agile Development: Subscribe today, Start tomorrow</strong>
 
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"/>
+                </div>
+
+            </div>
+            {/*  */}
+            <br/>
+            {/*  */}
+            <div className='row'>
+
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"/>
+                </div>
+
+                <div class="col-lg-6">
+
+                    <h2>What You See is What You Get</h2>
+                    <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
+                    <br/>
+                    <p class=" text-muted mb-0" >Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.</p>
+                    
+                    <div>
+                        <ul class=" fa-ul text-muted mb-0">
+                            <li><FontAwesomeIcon icon="fa-solid fa-check" /> Software Development more modular</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Assembly Line development means a standardized Quality driven software</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Repeatable software activities lead to higher quality at lower cost</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Software can be bought as a modular unit exactly like buying a Modular Kitchen</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Like Cloud Storage on a monthly basis, software can be bought on a subscription</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Identifiable, repeatable development activities can be bundled into a Monthly Subscription</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Increased estimation accuracy, and no budget overruns</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            <div className='row'>
+                <div class="col-lg-6">
+                    <h2>What We Offer</h2>
+                    <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
+                    <br/>
+                    <p class=" text-muted mb-0" >Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.</p>
+                    
+                    <div>
+                        <ul class=" fa-ul text-muted mb-0">
+                            <li><FontAwesomeIcon icon="fa-solid fa-check" /> Software Development more modular</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Assembly Line development means a standardized Quality driven software</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Repeatable software activities lead to higher quality at lower cost</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Software can be bought as a modular unit exactly like buying a Modular Kitchen</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Like Cloud Storage on a monthly basis, software can be bought on a subscription</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Identifiable, repeatable development activities can be bundled into a Monthly Subscription</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Increased estimation accuracy, and no budget overruns</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"/>
+                </div>
+
+            </div>
+
+            <div class="bg-light py-5">
+                <div class="container py-5">
+                    <div class="row mb-4 text-center">
+                        <div class="col-12">
+                            <h2 class="display-4 font-weight-light">Our team</h2>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                    {/* <!-- Team item--> */}
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
+                        <h5 class="mb-0">Raju</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        </div>
+                    </div>
+                    {/* <!-- End--> */}
+
+                    {/* <!-- Team item--> */}
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
+                        <h5 class="mb-0">Raju</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        </div>
+                    </div>
+                    {/* <!-- End--> */}
+
+                    {/* <!-- Team item--> */}
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
+                        <h5 class="mb-0">Raju</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        </div>
+                    </div>
+                    {/* <!-- End--> */}
+
+                    {/* <!-- Team item--> */}
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
+                        <h5 class="mb-0">Raju</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        </div>
+                    </div>
+                    {/* <!-- End--> */}
+
+                    </div>
                 </div>
             </div>
+
+            </div>
+
+            <div className='row'>
+                <div class="col-lg-6">
+                    <h2>What We Offer</h2>
+                    <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
+                    <br/>
+                    <p class=" text-muted mb-0" >Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.</p>
+                    
+                    <div>
+                        <ul class=" fa-ul text-muted mb-0">
+                            <li><FontAwesomeIcon icon="fa-solid fa-check" /> Software Development more modular</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Assembly Line development means a standardized Quality driven software</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Repeatable software activities lead to higher quality at lower cost</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Software can be bought as a modular unit exactly like buying a Modular Kitchen</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Like Cloud Storage on a monthly basis, software can be bought on a subscription</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Identifiable, repeatable development activities can be bundled into a Monthly Subscription</li>
+                            <br/>
+                            <li><FontAwesomeIcon icon="check-square" /> Increased estimation accuracy, and no budget overruns</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"/>
+                </div>
+
+            </div>
+
         </div>
     </div>
 
