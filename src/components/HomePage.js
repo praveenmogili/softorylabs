@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import './home.css'
-// import Card from 'react-bootstrap/Card';
+import Card from 'react-bootstrap/Card';
 
 import ImgCarousel from './ImgCarousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -167,33 +167,52 @@ const  Home = () => {
 
             <div className='row'>
                 <div class="col-lg-6">
-                    <h2>What We Offer</h2>
-                    <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
-                    <br/>
-                    <p class=" text-muted mb-0" >Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.</p>
-                    
-                    <div>
-                        <ul class=" fa-ul text-muted mb-0">
-                            <li><FontAwesomeIcon icon="fa-solid fa-check" /> Software Development more modular</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Assembly Line development means a standardized Quality driven software</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Repeatable software activities lead to higher quality at lower cost</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Software can be bought as a modular unit exactly like buying a Modular Kitchen</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Like Cloud Storage on a monthly basis, software can be bought on a subscription</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Identifiable, repeatable development activities can be bundled into a Monthly Subscription</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Increased estimation accuracy, and no budget overruns</li>
-
-                        </ul>
-                    </div>
+                    <h2>See What Some Of My Customers Say About Softory Labs</h2>
                 </div>
-
-                <div class="col-lg-6 d-none d-lg-block">
-                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"/>
+                
+                <div className='col-lg-6'>
+                    <div className='row'>
+                        <div className='col-lg-6'>
+                            <Card >
+                            <Card.Body className='scroll'>
+                                    <Card.Text>
+                                    Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.
+                                    </Card.Text>
+                                    <br/>
+                                    <div className='container'>
+                                        <div className='row'>
+                                            <div className='col-lg-3'>
+                                                <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
+                                            </div>
+                                            <div className='col-lg-9'>
+                                                <span> Rajat Bhagat </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className='col-lg-6'>
+                            <Card >
+                                <Card.Body className='scroll'>
+                                    <Card.Text>
+                                    Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.
+                                    </Card.Text>
+                                    <br/>
+                                    <div className='container'>
+                                        <div className='row'>
+                                            <div className='col-lg-3'>
+                                                <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
+                                            </div>
+                                            <div className='col-lg-9'>
+                                                <span> Rajat Bhagat </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </div>
                 </div>
 
             </div>
