@@ -1,45 +1,66 @@
 import React from 'react';
 import Header from './Header';
-import './home.css'
+import './styles/home.css'
 import Card from 'react-bootstrap/Card';
 
 import ImgCarousel from './ImgCarousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Button from 'react-bootstrap/Button';
+
 
 const  Home = () => {
 
   return (
       <div>
         <Header />
-        <br/>
-
-        <ImgCarousel />
-
         <div className='container py-5'>
+            <div className='row text-center'>
+                <h1>We are the best at Softory Labs</h1>
+            </div>
+
+            <div className='row text-center container-button'>
+                <Button variant="success" size='lg' className='center'>Get Started</Button>
+            </div>
+
+            <ImgCarousel />
+
             <div className='row'>
                 <div class="col-lg-6">
                     <h2>What We Offer</h2>
                     <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
                     <br/>
-                    <p class=" text-muted mb-0" >Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.</p>
+                    <p class=" text-muted mb-2" >Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
                     
                     <div>
-                        <ul class=" fa-ul text-muted mb-0">
-                            <li><FontAwesomeIcon icon="fa-solid fa-check" /> Software Development more modular</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Assembly Line development means a standardized Quality driven software</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Repeatable software activities lead to higher quality at lower cost</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Software can be bought as a modular unit exactly like buying a Modular Kitchen</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Like Cloud Storage on a monthly basis, software can be bought on a subscription</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Identifiable, repeatable development activities can be bundled into a Monthly Subscription</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Increased estimation accuracy, and no budget overruns</li>
-
-                        </ul>
+                        {/* <ul class="text-muted"> */}
+                            <div>
+                                <img className='list-icon' src='check-icon.svg'/>
+                                <p className='text-muted p-content'>Software Development more modular</p>
+                            </div>
+                            <div >
+                                <img className='list-icon' src='check-icon.svg'/>
+                                <p className='text-muted p-content'>Assembly Line development means a standardized Quality driven software</p>
+                            </div>
+                            <div >
+                                <img className='list-icon' src='check-icon.svg'/>
+                                <p className='text-muted p-content'>Repeatable software activities lead to higher quality at lower cost</p>
+                            </div>
+                            <div >
+                                <img className='list-icon' src='check-icon.svg'/>
+                                <p className='text-muted p-content'>Like Cloud Storage on a monthly basis, software can be bought on a subscriptio</p>
+                            </div>
+                            <div >
+                                <img className='list-icon' src='check-icon.svg'/>
+                                <p className='text-muted p-content'>Identifiable, repeatable development activities can be bundled into a Monthly Subscription</p>
+                            </div>
+                            <div >
+                                <img className='list-icon' src='check-icon.svg'/>
+                                <p className='text-muted p-content'>Increased estimation accuracy, and no budget overruns</p>
+                            </div>
+                            <div >
+                                <Button variant="outline-success" size='s' className='mt-3'>Learn More</Button>
+                            </div>
+                        {/* </ul> */}
                     </div>
                 </div>
 
@@ -51,7 +72,7 @@ const  Home = () => {
             {/*  */}
             <br/>
             {/*  */}
-            <div className='row'>
+            <div className='row what-you-see-what-get'>
 
                 <div class="col-lg-6 d-none d-lg-block">
                     <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"/>
@@ -60,28 +81,38 @@ const  Home = () => {
                 <div class="col-lg-6">
 
                     <h2>What You See is What You Get</h2>
-                    <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
+                    <p class=" text-muted mb-0">We manage the worries of reporting, follow-up, monitoring, change management, deadlines, expediting and prioritizing deliverables seamlessly with your business leaders.</p>
                     <br/>
-                    <p class=" text-muted mb-0" >Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.</p>
                     
                     <div>
-                        <ul class=" fa-ul text-muted mb-0">
-                            <li><FontAwesomeIcon icon="fa-solid fa-check" /> Software Development more modular</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Assembly Line development means a standardized Quality driven software</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Repeatable software activities lead to higher quality at lower cost</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Software can be bought as a modular unit exactly like buying a Modular Kitchen</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Like Cloud Storage on a monthly basis, software can be bought on a subscription</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Identifiable, repeatable development activities can be bundled into a Monthly Subscription</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Increased estimation accuracy, and no budget overruns</li>
-
-                        </ul>
+                        {/* <ul class=" fa-ul text-muted mb-0"> */}
+                        <div>
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Software factory where you buy Software Labs Subscription Units</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Complete control of your Agile Project</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Comprehensive end-to-end Cloud Development & Management</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Project Management Services from Project Initiation, Planning, Execution, Monitoring & Control and Closing</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Your focus can be on business, while we manage Application Development and Management</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Full Stack Managed Remote Service Units, including Engineers & Developers, Technical Managers and Project Managers</p>
+                        </div>
+                        {/* </ul> */}
                     </div>
+                </div>
                 </div>
 
 
@@ -93,22 +124,30 @@ const  Home = () => {
                     <p class=" text-muted mb-0" >Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.</p>
                     
                     <div>
-                        <ul class=" fa-ul text-muted mb-0">
-                            <li><FontAwesomeIcon icon="fa-solid fa-check" /> Software Development more modular</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Assembly Line development means a standardized Quality driven software</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Repeatable software activities lead to higher quality at lower cost</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Software can be bought as a modular unit exactly like buying a Modular Kitchen</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Like Cloud Storage on a monthly basis, software can be bought on a subscription</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Identifiable, repeatable development activities can be bundled into a Monthly Subscription</li>
-                            <br/>
-                            <li><FontAwesomeIcon icon="check-square" /> Increased estimation accuracy, and no budget overruns</li>
-
-                        </ul>
+                        <div>
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Software Development more modular</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Assembly Line development means a standardized Quality driven software</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Repeatable software activities lead to higher quality at lower cost</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Like Cloud Storage on a monthly basis, software can be bought on a subscriptio</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Identifiable, repeatable development activities can be bundled into a Monthly Subscription</p>
+                        </div>
+                        <div >
+                            <img className='list-icon' src='check-icon.svg'/>
+                            <p className='text-muted p-content'>Increased estimation accuracy, and no budget overruns</p>
+                        </div>
                     </div>
                 </div>
 
@@ -218,7 +257,6 @@ const  Home = () => {
             </div>
 
         </div>
-    </div>
 
   );
 }
