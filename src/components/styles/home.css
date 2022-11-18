@@ -22,6 +22,10 @@
 
 }
 
+.main-head-background {
+    background-color: #fefaf1;
+}
+
 .centered {
     display: flex;
     justify-content: center;
@@ -43,12 +47,6 @@
 .bg-cover {
     background-size: cover !important;
 }
-
-/* .img-size {
-    height: 10%;
-    width: 10%;
-    border-radius: 100%;
-} */
 
 .image-cropper {
     width: 200px;

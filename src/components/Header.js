@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import {LinkContainer} from 'react-router-bootstrap'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import {useState} from 'react';
-
+import Button from 'react-bootstrap/Button';
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -52,6 +52,10 @@ const Header = () => {
                 
                 <LinkContainer to="/careers">
                     <Nav.Link>Careers</Nav.Link>
+                </LinkContainer>
+
+                <LinkContainer to="/contact">
+                    <Button variant='success'>Contact Us</Button>
                 </LinkContainer>
 
               </Nav>
