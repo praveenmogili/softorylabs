@@ -22,7 +22,7 @@ const  Home = () => {
                 <ImgCarousel />
             </div>
 
-            <div className="row px-4 py-5">
+            <div className="row px-5 py-5">
                 <div class="col-lg-6">
                     <h2>What We Offer</h2>
                     <p class="text-muted mb-0">
@@ -70,8 +70,8 @@ const  Home = () => {
                     <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid" />
                 </div>
             </div>
-            <br />
-            <div className="row what-you-see-what-get px-4 py-5">
+
+            <div className="row what-you-see-what-get px-5 py-5">
                 <div class="col-lg-6 d-none d-lg-block">
                     <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="list-icon" class="img-fluid" />
                 </div>
@@ -113,7 +113,7 @@ const  Home = () => {
                 </div>
             </div>
 
-            <div className="row px-4 py-5">
+            <div className="row px-5 py-5">
                 <div class="col-lg-6">
                     <h2>What We Offer</h2>
                     <p class="text-muted mb-0">
@@ -155,6 +155,7 @@ const  Home = () => {
                     <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="list-icon" class="img-fluid" />
                 </div>
             </div>
+
             <div class="bg-light py-5">
                 <div class="container py-5">
                     <div class="row mb-4 text-center">
@@ -199,7 +200,7 @@ const  Home = () => {
                 </div>
             </div>
 
-            <div className="row px-4 py-5 main-head-background">
+            <div className="row px-5 py-5 main-head-background">
                 <div class="col-lg-6">
                     <h2>See what some Of my Customers say about Softory Labs</h2>
                 </div>
