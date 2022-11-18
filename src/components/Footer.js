@@ -7,7 +7,17 @@ const Footer = () => {
             <footer className='footer mt-auto py-3 bg-black'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-4 col-m-6 col-s-12'>
+                        <div className="col-lg-3 d-block">
+                            <div className="row">
+                                <img src="Logo.svg" height='100' width="100" alt="logo"/>
+                            </div>
+                            <div className="row ps-5">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                <SocialIcon url="https://www.facebook.com" bgColor="black" fgColor="white" />
+                                <SocialIcon url="https://www.twitter.com" bgColor="black" fgColor="white"/>
+                            </div>
+                        </div>
+                        <div className='col-lg-3 col-m-6 col-s-12'>
                             <div className='row text-light'>
                                 <strong><span>Our Offices</span></strong>
                             </div>
@@ -25,7 +35,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-4 col-m-6 col-s-12'>
+                        <div className='col-lg-3 col-m-6 col-s-12'>
                             <div className='row text-light'>
                                 <strong><span>Services</span></strong>
                             </div>
@@ -43,7 +53,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-4 col-m-6 col-s-12'>
+                        <div className='col-lg-3 col-m-6 col-s-12'>
                             <div className='row text-light'>
                                 <strong><span>Company</span></strong>
                             </div>
@@ -61,15 +71,6 @@ const Footer = () => {
                             </div>
                         </div>
 
-                    </div>
-                    <div className="row">
-                    
-                        <SocialIcon url="https://www.linkedin.com" bgColor="black" fgColor="white" />
-                        <SocialIcon url="https://www.youtube.com" bgColor="black" fgColor="white"  />
-                        <SocialIcon url="https://www.facebook.com" bgColor="black" fgColor="white" />
-                        <SocialIcon url="https://www.twitter.com" bgColor="black" fgColor="white"/>
-                        <SocialIcon url="https://www.instagram.com" bgColor="black" fgColor="white"/>
-                    
                     </div>
                 </div>
             </footer>
