@@ -13,19 +13,16 @@ const  Home = () => {
   return (
       <div>
         <Header />
-        <div className='container py-5'>
+        <div className='container-fluid py-5'>
             <div className='row text-center'>
                 <h1>We are the best at Softory Labs</h1>
             </div>
-
             <div className='row text-center container-button'>
                 <Button variant="success" size='lg' className='center'>Get Started</Button>
             </div>
-
             <ImgCarousel />
-
-            <div className='row'>
-                <div class="col-lg-6 pt-4 pb-4 pl-4">
+            <div className='row px-4 py-5'>
+                <div class="col-lg-6">
                     
                     <h2 >What We Offer</h2>
                     <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
@@ -73,7 +70,7 @@ const  Home = () => {
             {/*  */}
             <br/>
             {/*  */}
-            <div className='row what-you-see-what-get'>
+            <div className='row what-you-see-what-get px-4 py-5'>
 
                 <div class="col-lg-6 d-none d-lg-block">
                     <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"/>
@@ -81,7 +78,7 @@ const  Home = () => {
 
                 <div class="col-lg-6">
 
-                    <h2 className='pt-5'>What You See is What You Get</h2>
+                    <h2>What You See is What You Get</h2>
                     <p class=" text-muted mb-0">We manage the worries of reporting, follow-up, monitoring, change management, deadlines, expediting and prioritizing deliverables seamlessly with your business leaders.</p>
                     <br/>
                     
@@ -111,7 +108,7 @@ const  Home = () => {
                             <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
                             <p className='text-muted p-content'>Full Stack Managed Remote Service Units, including Engineers & Developers, Technical Managers and Project Managers</p>
                         </div>
-                        <div className='pb-5'>
+                        <div>
                             <Button variant="outline-success" size='s' className='mt-3'>Learn More</Button>
                         </div>
                         {/* </ul> */}
@@ -120,7 +117,7 @@ const  Home = () => {
                 </div>
 
 
-            <div className='row'>
+            <div className='row px-4 py-5'>
                 <div class="col-lg-6">
                     <h2>What We Offer</h2>
                     <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
@@ -207,7 +204,7 @@ const  Home = () => {
                 </div>
 
             
-                <div className='row pt-5'>
+                <div className='row px-4 py-5'>
                     <div class="col-lg-4">
                         <h2>See what some Of my Customers say about Softory Labs</h2>
                     </div>
@@ -237,7 +234,7 @@ const  Home = () => {
                                         </div>
                                     </Card.Body>
                                 </Card>
-                                <i class="fa fa-arrow-circle-left review-left-icon fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-arrow-circle-left review-left-icon fa-2x pt-2 pe-2" aria-hidden="true"></i>
                             </div>
                             <div className='col-lg-6'>
                                 <Card >
@@ -256,7 +253,7 @@ const  Home = () => {
                                         </div>
                                     </Card.Body>
                                 </Card>
-                                <i class="fa fa-arrow-circle-right review-right-icon fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-arrow-circle-right review-right-icon fa-2x pt-2 ps-2" aria-hidden="true"></i>
                             </div>
 
 

@@ -85,9 +85,6 @@
 
 ul {
     list-style-image: url('../../../public/check-icon.svg');
-    /* list-style-position: outside; */
-    /* list-style: none; */
-
 }
 
 .list-icon {
@@ -96,7 +93,6 @@ ul {
 }
 
 .p-content {
-    /* text-align: justify; */
     overflow:hidden;
 }
 
