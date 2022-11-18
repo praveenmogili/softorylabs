@@ -7,7 +7,7 @@ const ImgCarousel = () => {
                 <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"
-                    src="https://mythics.com/wp-content/uploads/2022/07/AdobeStock_245269525-scaled.jpeg"
+                    src="img3.png"
                     alt="First slide"
                     height="500px"
                     />

@@ -67,16 +67,16 @@ const  Home = () => {
                 </div>
 
                 <div class="col-lg-6 d-none d-lg-block">
-                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid" />
+                    <img src="img4.png" alt="" class="img-fluid" />
                 </div>
             </div>
 
-            <div className="row what-you-see-what-get px-5 py-5">
+            <div className="row what-you-see-what-get">
                 <div class="col-lg-6 d-none d-lg-block">
-                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="list-icon" class="img-fluid" />
+                    <img src="img1.png" alt="list-icon" class="img-fluid" />
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 px-5 py-5">
                     <h2>What You See is What You Get</h2>
                     <p class="text-muted mb-0">We manage the worries of reporting, follow-up, monitoring, change management, deadlines, expediting and prioritizing deliverables seamlessly with your business leaders.</p>
                     <br />
@@ -113,8 +113,8 @@ const  Home = () => {
                 </div>
             </div>
 
-            <div className="row px-5 py-5">
-                <div class="col-lg-6">
+            <div className="row ">
+                <div class="col-lg-6 px-5 py-5">
                     <h2>A Softory Labs Unit</h2>
                     <p class="text-muted mb-0">
                     Every unit optimally designed for small agile teams, waiting for your business stakeholder to join and complete the team!
@@ -147,7 +147,7 @@ const  Home = () => {
                     </div>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
-                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="list-icon" class="img-fluid" />
+                    <img src="img2.png" alt="list-icon" class="img-fluid" />
                 </div>
             </div>
 
