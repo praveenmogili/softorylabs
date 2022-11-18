@@ -60,3 +60,62 @@
     height: 300px;
     overflow-y: auto;
 }
+
+.get-start-button {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button {
+    height: 200px;
+    position: relative;
+}
+  
+.center {
+    width: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style-image: url('../../../public/check-icon.svg');
+}
+
+.list-icon {
+    background-color: white;
+    float:left; padding-right:10px;
+}
+
+.p-content {
+    overflow:hidden;
+}
+
+.what-you-see-what-get {
+    background-color: #f4f9fe;
+}
+
+.what-you-see-what-get-list-icon {
+    background-color: f4f9fe;
+    float:left; padding-right:10px;
+}
+
+.review-left-icon {
+    color: green;
+    float: right;
+}
+
+.review-right-icon {
+    color: green;
+    float: left;
+}
+
+.review-user-icon {
+    background-color: white;
+    float:left; ;
+}

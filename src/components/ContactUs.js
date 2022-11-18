@@ -1,7 +1,7 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './Header';
-import './contactus.css'
+import './styles/contactus.css'
 
 const ContactUs = () => {
     return (
