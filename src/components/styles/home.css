@@ -103,3 +103,23 @@ ul {
 .what-you-see-what-get {
     background-color: #f4f9fe;
 }
+
+.what-you-see-what-get-list-icon {
+    background-color: f4f9fe;
+    float:left; padding-right:10px;
+}
+
+.review-left-icon {
+    color: green;
+    float: right;
+}
+
+.review-right-icon {
+    color: green;
+    float: left;
+}
+
+.review-user-icon {
+    background-color: white;
+    float:left; ;
+}

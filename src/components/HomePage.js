@@ -25,8 +25,9 @@ const  Home = () => {
             <ImgCarousel />
 
             <div className='row'>
-                <div class="col-lg-6">
-                    <h2>What We Offer</h2>
+                <div class="col-lg-6 pt-4 pb-4 pl-4">
+                    
+                    <h2 >What We Offer</h2>
                     <p class=" text-muted mb-0">Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
                     <br/>
                     <p class=" text-muted mb-2" >Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.</p>
@@ -80,35 +81,38 @@ const  Home = () => {
 
                 <div class="col-lg-6">
 
-                    <h2>What You See is What You Get</h2>
+                    <h2 className='pt-5'>What You See is What You Get</h2>
                     <p class=" text-muted mb-0">We manage the worries of reporting, follow-up, monitoring, change management, deadlines, expediting and prioritizing deliverables seamlessly with your business leaders.</p>
                     <br/>
                     
                     <div>
                         {/* <ul class=" fa-ul text-muted mb-0"> */}
                         <div>
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
                             <p className='text-muted p-content'>Software factory where you buy Software Labs Subscription Units</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
                             <p className='text-muted p-content'>Complete control of your Agile Project</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
                             <p className='text-muted p-content'>Comprehensive end-to-end Cloud Development & Management</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
                             <p className='text-muted p-content'>Project Management Services from Project Initiation, Planning, Execution, Monitoring & Control and Closing</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
                             <p className='text-muted p-content'>Your focus can be on business, while we manage Application Development and Management</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
                             <p className='text-muted p-content'>Full Stack Managed Remote Service Units, including Engineers & Developers, Technical Managers and Project Managers</p>
+                        </div>
+                        <div className='pb-5'>
+                            <Button variant="outline-success" size='s' className='mt-3'>Learn More</Button>
                         </div>
                         {/* </ul> */}
                     </div>
@@ -200,62 +204,69 @@ const  Home = () => {
 
                     </div>
                 </div>
-            </div>
-
-            </div>
-
-            <div className='row'>
-                <div class="col-lg-6">
-                    <h2>See What Some Of My Customers Say About Softory Labs</h2>
                 </div>
-                
-                <div className='col-lg-6'>
-                    <div className='row'>
-                        <div className='col-lg-6'>
-                            <Card >
-                            <Card.Body className='scroll'>
-                                    <Card.Text>
-                                    Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.
-                                    </Card.Text>
-                                    <br/>
-                                    <div className='container'>
-                                        <div className='row'>
-                                            <div className='col-lg-3'>
-                                                <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
-                                            </div>
-                                            <div className='col-lg-9'>
-                                                <span> Rajat Bhagat </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                        <div className='col-lg-6'>
-                            <Card >
-                                <Card.Body className='scroll'>
-                                    <Card.Text>
-                                    Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.
-                                    </Card.Text>
-                                    <br/>
-                                    <div className='container'>
-                                        <div className='row'>
-                                            <div className='col-lg-3'>
-                                                <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
-                                            </div>
-                                            <div className='col-lg-9'>
-                                                <span> Rajat Bhagat </span>
+
+            
+                <div className='row pt-5'>
+                    <div class="col-lg-4">
+                        <h2>See what some Of my Customers say about Softory Labs</h2>
+                    </div>
+                    
+                    <div className='col-lg-8'>
+                        <div className='row'>
+                            <div className='col-lg-6'>
+                                <Card >
+                                <Card.Body>
+                                        <Card.Text className='pt-3'>
+                                        Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.
+                                        </Card.Text>
+                                        <br/>
+                                        <div className='container'>
+                                            <div className='row'>
+                                                <div>
+                                                    <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="40" height="40" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm review-user-icon"/>
+                                                    <span className='text-muted p-content ps-3'>Rajat Bhagat</span>
+                                                </div>
+                                                {/* <div className='col-lg-3'>
+                                                    <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
+                                                </div>
+                                                <div className='col-lg-9'>
+                                                    <span> Rajat Bhagat </span>
+                                                </div> */}
                                             </div>
                                         </div>
-                                    </div>
-                                </Card.Body>
-                            </Card>
+                                    </Card.Body>
+                                </Card>
+                                <i class="fa fa-arrow-circle-left review-left-icon fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div className='col-lg-6'>
+                                <Card >
+                                <Card.Body>
+                                        <Card.Text className='pt-3'>
+                                        Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in other industries.
+                                        </Card.Text>
+                                        <br/>
+                                        <div className='container'>
+                                            <div className='row'>
+                                                <div>
+                                                    <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="40" height="40" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm review-user-icon"/>
+                                                    <span className='text-muted p-content ps-3 pt-3'>Jarid Mitchell</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                                <i class="fa fa-arrow-circle-right review-right-icon fa-2x" aria-hidden="true"></i>
+                            </div>
+
+
                         </div>
                     </div>
-                </div>
 
             </div>
 
+            
+            </div>
         </div>
 
   );
