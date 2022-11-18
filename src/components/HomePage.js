@@ -115,42 +115,37 @@ const  Home = () => {
 
             <div className="row px-5 py-5">
                 <div class="col-lg-6">
-                    <h2>What We Offer</h2>
+                    <h2>A Softory Labs Unit</h2>
                     <p class="text-muted mb-0">
-                        Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in
-                        other industries.
+                    Every unit optimally designed for small agile teams, waiting for your business stakeholder to join and complete the team!
                     </p>
                     <br />
                     <p class="text-muted mb-0">Just as you buy a modular home, with a modular kitchen, so also you can buy standardized high quality units of agile software development and project management.</p>
-
+                    <br/>
+                    <strong><p class="text-muted mb-0">Mix</p></strong>
                     <div>
                         <div>
                             <img className="list-icon" src="check-icon.svg" alt="list-icon" />
-                            <p className="text-muted p-content">Software Development more modular</p>
+                            <p className="text-muted p-content">Cloud developers -4</p>
                         </div>
                         <div>
                             <img className="list-icon" src="check-icon.svg" alt="list-icon" />
-                            <p className="text-muted p-content">Assembly Line development means a standardized Quality driven software</p>
+                            <p className="text-muted p-content">Principal devops lead - 1</p>
                         </div>
                         <div>
                             <img className="list-icon" src="check-icon.svg" alt="list-icon" />
-                            <p className="text-muted p-content">Repeatable software activities lead to higher quality at lower cost</p>
-                        </div>
-                        <div>
-                            <img className="list-icon" src="check-icon.svg" alt="list-icon" />
-                            <p className="text-muted p-content">Like Cloud Storage on a monthly basis, software can be bought on a subscriptio</p>
-                        </div>
-                        <div>
-                            <img className="list-icon" src="check-icon.svg" alt="list-icon" />
-                            <p className="text-muted p-content">Identifiable, repeatable development activities can be bundled into a Monthly Subscription</p>
-                        </div>
-                        <div>
-                            <img className="list-icon" src="check-icon.svg" alt="list-icon" />
-                            <p className="text-muted p-content">Increased estimation accuracy, and no budget overruns</p>
+                            <p className="text-muted p-content">Project manager - 0.5</p>
                         </div>
                     </div>
+                    <p class="text-muted mb-0">Bigger projects with more stories to develop can have multiple units</p>
+                    <br/>
+                    <p class="text-muted mb-0">Flexibility of softory labs unit: businesses can prioritize activities every month, add stories or remove and modify them in agile development</p>
+                    <br/>
+                    <strong><p class="text-muted mb-0">Agile development: subscribe today, start tomorrow</p></strong>
+                    <div>
+                        <Button variant="outline-success" size="s" className="mt-3">Learn More</Button>
+                    </div>
                 </div>
-
                 <div class="col-lg-6 d-none d-lg-block">
                     <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="list-icon" class="img-fluid" />
                 </div>
@@ -219,7 +214,7 @@ const  Home = () => {
                                         <div className="row">
                                             <div>
                                                 <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="40" height="40" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm review-user-icon" />
-                                                <span className="text-muted p-content ps-3">Rajat Bhagat</span>
+                                                <strong><span className="p-content ps-3 pt-3">Rajat Bhagat</span></strong>
                                             </div>
                                         </div>
                                     </div>
@@ -239,7 +234,7 @@ const  Home = () => {
                                         <div className="row">
                                             <div>
                                                 <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="40" height="40" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm review-user-icon" />
-                                                <span className="text-muted p-content ps-3 pt-3">Jarid Mitchell</span>
+                                                <strong><span className=" p-content ps-3 pt-3">Jarid Mitchell</span></strong>
                                             </div>
                                         </div>
                                     </div>
