@@ -4,7 +4,6 @@ import './styles/home.css'
 import Card from 'react-bootstrap/Card';
 
 import ImgCarousel from './ImgCarousel';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Button from 'react-bootstrap/Button';
 
 
@@ -32,27 +31,27 @@ const  Home = () => {
                     <div>
                         {/* <ul class="text-muted"> */}
                             <div>
-                                <img className='list-icon' src='check-icon.svg'/>
+                                <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                                 <p className='text-muted p-content'>Software Development more modular</p>
                             </div>
                             <div >
-                                <img className='list-icon' src='check-icon.svg'/>
+                                <img className='list-icon' src='check-icon.svg'  alt='list-icon'/>
                                 <p className='text-muted p-content'>Assembly Line development means a standardized Quality driven software</p>
                             </div>
                             <div >
-                                <img className='list-icon' src='check-icon.svg'/>
+                                <img className='list-icon' src='check-icon.svg'  alt='list-icon'/>
                                 <p className='text-muted p-content'>Repeatable software activities lead to higher quality at lower cost</p>
                             </div>
                             <div >
-                                <img className='list-icon' src='check-icon.svg'/>
+                                <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                                 <p className='text-muted p-content'>Like Cloud Storage on a monthly basis, software can be bought on a subscriptio</p>
                             </div>
                             <div >
-                                <img className='list-icon' src='check-icon.svg'/>
+                                <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                                 <p className='text-muted p-content'>Identifiable, repeatable development activities can be bundled into a Monthly Subscription</p>
                             </div>
                             <div >
-                                <img className='list-icon' src='check-icon.svg'/>
+                                <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                                 <p className='text-muted p-content'>Increased estimation accuracy, and no budget overruns</p>
                             </div>
                             <div >
@@ -73,7 +72,7 @@ const  Home = () => {
             <div className='row what-you-see-what-get px-4 py-5'>
 
                 <div class="col-lg-6 d-none d-lg-block">
-                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"/>
+                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png"  alt='list-icon' class="img-fluid"/>
                 </div>
 
                 <div class="col-lg-6">
@@ -85,27 +84,27 @@ const  Home = () => {
                     <div>
                         {/* <ul class=" fa-ul text-muted mb-0"> */}
                         <div>
-                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Software factory where you buy Software Labs Subscription Units</p>
                         </div>
                         <div >
-                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Complete control of your Agile Project</p>
                         </div>
                         <div >
-                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Comprehensive end-to-end Cloud Development & Management</p>
                         </div>
                         <div >
-                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Project Management Services from Project Initiation, Planning, Execution, Monitoring & Control and Closing</p>
                         </div>
                         <div >
-                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Your focus can be on business, while we manage Application Development and Management</p>
                         </div>
                         <div >
-                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg'/>
+                            <img className='what-you-see-what-get-list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Full Stack Managed Remote Service Units, including Engineers & Developers, Technical Managers and Project Managers</p>
                         </div>
                         <div>
@@ -126,34 +125,34 @@ const  Home = () => {
                     
                     <div>
                         <div>
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Software Development more modular</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Assembly Line development means a standardized Quality driven software</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Repeatable software activities lead to higher quality at lower cost</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Like Cloud Storage on a monthly basis, software can be bought on a subscriptio</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Identifiable, repeatable development activities can be bundled into a Monthly Subscription</p>
                         </div>
                         <div >
-                            <img className='list-icon' src='check-icon.svg'/>
+                            <img className='list-icon' src='check-icon.svg' alt='list-icon'/>
                             <p className='text-muted p-content'>Increased estimation accuracy, and no budget overruns</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 d-none d-lg-block">
-                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"/>
+                    <img src="https://bootstrapious.com/i/snippets/sn-about/illus.png"  alt='list-icon' class="img-fluid"/>
                 </div>
 
             </div>
