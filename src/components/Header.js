@@ -35,27 +35,27 @@ const Header = () => {
               <Nav className="ms-auto" style={{ width: "100%" }}>
 
                 <LinkContainer to="/">
-                    <Nav.Link >Home</Nav.Link>
+                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>Home</strong></Nav.Link>
                 </LinkContainer>
-                
+
                 <LinkContainer to="/about">
-                    <Nav.Link>Why Us</Nav.Link>
+                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>Why Us</strong></Nav.Link>
                 </LinkContainer>
-                
+
                 <LinkContainer to="/story">
-                    <Nav.Link>Our Story</Nav.Link>
+                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>Our Story</strong></Nav.Link>
                 </LinkContainer>
-                
+
                 <LinkContainer to="/howwedoit">
-                    <Nav.Link>How We Do It</Nav.Link>
+                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>How We Do It</strong></Nav.Link>
                 </LinkContainer>
-                
+
                 <LinkContainer to="/careers">
-                    <Nav.Link>Careers</Nav.Link>
+                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>Careers</strong></Nav.Link>
                 </LinkContainer>
 
                 <LinkContainer to="/contact">
-                    <Button variant='success'>Contact Us</Button>
+                    <Button variant='success'><strong>Contact Us</strong></Button>
                 </LinkContainer>
 
               </Nav>

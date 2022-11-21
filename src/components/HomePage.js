@@ -14,16 +14,16 @@ const  Home = () => {
         <div>
             <div className="main-head-background">
                 <div className="text-center pt-4">
-                    <h1>We are the best at Softory Labs</h1>
+                    <h1>Innovate. Create. Automate.</h1>
                 </div>
                 <div className="text-center">
-                    <Button variant="success" size="lg" className="mx-auto">Get Started</Button>
+                    <Button variant="success" size="lg" className="mx-auto">Get Started with Softory Labs</Button>
                 </div>
                 <ImgCarousel />
             </div>
 
             <div className="row px-5 py-5">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-m-6 col-s-12">
                     <h2>What We Offer</h2>
                     <p class="text-muted mb-0">
                         Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in
@@ -66,17 +66,17 @@ const  Home = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
                     <img src="img4.png" alt="" class="img-fluid" />
                 </div>
             </div>
 
             <div className="row what-you-see-what-get">
-                <div class="col-lg-6 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
                     <img src="img1.png" alt="list-icon" class="img-fluid" />
                 </div>
 
-                <div class="col-lg-6 px-5 py-5">
+                <div class="col-lg-6 col-m-6 col-s-12 px-5 py-5">
                     <h2>What You See is What You Get</h2>
                     <p class="text-muted mb-0">We manage the worries of reporting, follow-up, monitoring, change management, deadlines, expediting and prioritizing deliverables seamlessly with your business leaders.</p>
                     <br />
@@ -113,8 +113,8 @@ const  Home = () => {
                 </div>
             </div>
 
-            <div className="row ">
-                <div class="col-lg-6 px-5 py-5">
+            <div className="row px-5 py-5">
+                <div class="col-lg-6 col-m-6 col-s-12">
                     <h2>A Softory Labs Unit</h2>
                     <p class="text-muted mb-0">
                     Every unit optimally designed for small agile teams, waiting for your business stakeholder to join and complete the team!
@@ -146,7 +146,7 @@ const  Home = () => {
                         <Button variant="outline-success" size="s" className="mt-3">Learn More</Button>
                     </div>
                 </div>
-                <div class="col-lg-6 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
                     <img src="img2.png" alt="list-icon" class="img-fluid" />
                 </div>
             </div>
@@ -196,13 +196,13 @@ const  Home = () => {
             </div>
 
             <div className="row px-5 py-5 main-head-background">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-m-6 col-s-12">
                     <h2>See what some Of my Customers say about Softory Labs</h2>
                 </div>
 
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-m-6 col-s-12">
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-m-6 col-s-12">
                             <Card>
                                 <Card.Body>
                                     <Card.Text className="pt-3">
