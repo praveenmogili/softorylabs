@@ -7,19 +7,21 @@ const Footer = () => {
             <footer className='footer mt-auto py-3 bg-black'>
                 <div className='container'>
                     <div className='row'>
+
                         <div className="col-lg-3 d-block">
                             <div className="row">
-                                <img src="Logo.svg" height='100' width="100" alt="logo"/>
+                                <img src="Logo.svg" height='150' width="250" alt="logo"/>
                             </div>
-                            <div className="row ps-5">
-                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                                <SocialIcon url="https://www.facebook.com" bgColor="black" fgColor="white" />
-                                <SocialIcon url="https://www.twitter.com" bgColor="black" fgColor="white"/>
+                            <div className="row ps-5" style={{"margin-left": "20px"}}>
+                                <SocialIcon url="https://www.youtube.com" bgColor="black" fgColor="white"  style={{ height: 40, width: 40 }}/>
+                                <SocialIcon url="https://www.facebook.com" bgColor="black" fgColor="white" style={{ height: 40, width: 40 }}/>
+                                <SocialIcon url="https://www.twitter.com" bgColor="black" fgColor="white" style={{ height: 40, width: 40 }}/>
                             </div>
                         </div>
+
                         <div className='col-lg-3 col-m-6 col-s-12'>
                             <div className='row text-light'>
-                                <strong><span>Our Offices</span></strong>
+                                <strong><span style={{"font-size": "25px"}}>Our Offices</span></strong>
                             </div>
                             <div className='row text-muted'>
                                 <br/>
@@ -37,7 +39,7 @@ const Footer = () => {
 
                         <div className='col-lg-3 col-m-6 col-s-12'>
                             <div className='row text-light'>
-                                <strong><span>Services</span></strong>
+                                <strong><span style={{"font-size": "25px"}}>Services</span></strong>
                             </div>
                             <div className='row text-muted'>
                                 <br/>
@@ -55,7 +57,7 @@ const Footer = () => {
 
                         <div className='col-lg-3 col-m-6 col-s-12'>
                             <div className='row text-light'>
-                                <strong><span>Company</span></strong>
+                                <strong><span style={{"font-size": "25px"}}>Company</span></strong>
                             </div>
                             <div className='row text-muted'>
                                 <br/>

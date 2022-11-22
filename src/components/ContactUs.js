@@ -1,12 +1,10 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Header from './Header';
 import './styles/contactus.css'
 
 const ContactUs = () => {
     return (
-        <div className='d-block justify-content-center'>
-            <Header/>
+        <div className='d-block justify-content-center py-5 px-5 m-5'>
             <div className='container-fluid'>
                 <h3 className='centered'>Contact Us</h3>
                 <Form>

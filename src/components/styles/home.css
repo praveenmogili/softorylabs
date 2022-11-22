@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Goldman', cursive;
+    font-family: 'Goldman';
     font-size: 60px;
     color: black;
 }
@@ -49,8 +49,8 @@
 }
 
 .image-cropper {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     float: left;
 }
 

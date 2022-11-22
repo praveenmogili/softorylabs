@@ -8,10 +8,12 @@ import Footer from './components/Footer';
 import Home from './components/HomePage';
 import HowWeDoIt from './components/HowWeDoIt';
 import Story from './components/Story';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Header />
       <div >
         <Routes>
           <Route path={"/"} element={<Home/>}/>
