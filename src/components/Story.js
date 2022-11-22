@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from './Header';
 import './styles/home.css'
 
 
 const Story = () => {
     return (
         <>
-            <Header />
             <div className='container py-5 lead text-muted mb-0'>
                 <div class="row">
                     <h2 className='py-3'>Our Story in the Post-COVID Age</h2>

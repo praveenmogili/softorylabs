@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header';
 import './styles/home.css'
 import Card from 'react-bootstrap/Card';
 
@@ -10,7 +9,6 @@ import Button from 'react-bootstrap/Button';
 const  Home = () => {
   return (
     <div>
-        <Header />
         <div>
             <div className="main-head-background">
                 <div className="text-center pt-4">

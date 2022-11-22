@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from './Header';
 import './styles/home.css'
 import Button from 'react-bootstrap/Button';
 
 const HowWeDoIt = () => {
     return(
         <>
-            <Header />
-
             <div className="row px-5 py-5">
                 <div class="col-lg-6 col-m-6 col-s-12">
                     <h2>How we do it</h2>

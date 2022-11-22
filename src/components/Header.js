@@ -55,7 +55,7 @@ const Header = () => {
                 </LinkContainer>
 
                 <LinkContainer to="/contact">
-                    <Button variant='success'><strong>Contact Us</strong></Button>
+                    <Button  variant='success'><strong>Contact Us</strong></Button>
                 </LinkContainer>
 
               </Nav>

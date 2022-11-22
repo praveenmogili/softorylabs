@@ -1,12 +1,9 @@
-import Header from "./Header";
 import './styles/home.css';
 import './styles/aboutus.css';
 
 const AboutUs = () => {
     return (
         <>
-            <Header />
-
                 <div class="main-head-background">
                     <div class="container py-5">
                         <div class="row h-100 align-items-center py-5">
