@@ -6,7 +6,7 @@ const HowWeDoIt = () => {
     return(
         <>
             <div className="row px-5 py-5">
-                <div class="col-lg-6 col-m-6 col-s-12">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-2">
                     <h2>How we do it</h2>
 
                     <div>
@@ -40,17 +40,17 @@ const HowWeDoIt = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-1 order-sm-1 order-lg-1">
                     <img src="img1.png" alt="" class="img-fluid" />
                 </div>
             </div>
 
 
             <div className="row px-5 py-5">
-                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-1 order-sm-1 order-lg-2">
                     <img src="img2.png" alt="" class="img-fluid" />
                 </div>
-                <div class="col-lg-6 col-m-6 col-s-12">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-1">
                     <h2>Reinforcing the Best Talent with Global Work Culture & Values</h2>
                     <div>
                         <div>
@@ -86,7 +86,7 @@ const HowWeDoIt = () => {
 
 
             <div className="row px-5 py-5">
-                <div class="col-lg-6 col-m-6 col-s-12">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-2">
                     <h2>Selecting the Best Talent in the world for you</h2>
 
                     <div>
@@ -128,17 +128,17 @@ const HowWeDoIt = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-1 order-sm-1 order-lg-1">
                     <img src="img4.png" alt="" class="img-fluid" />
                 </div>
             </div>
 
 
             <div className="row px-5 py-5">
-                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-1 order-sm-1 order-lg-2">
                     <img src="img1.png" alt="" class="img-fluid" />
                 </div>
-                <div class="col-lg-6 col-m-6 col-s-12">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-1">
                     <h2>Why we selected India and Hyderabad as our first center</h2>
                     <span className='py-1'><i className='text-muted'>“India will be the country with the largest software developer population in 2024 (surpassing the US).”</i> – Findly.com</span>
                     <div className='pt-4'>
@@ -186,7 +186,7 @@ const HowWeDoIt = () => {
 
 
             <div className="row px-5 py-5">
-                <div class="col-lg-6 col-m-6 col-s-12">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-2">
                     <h2>Live Locally, Work Globally</h2>
 
                     <div>
@@ -212,16 +212,16 @@ const HowWeDoIt = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-1 order-sm-1 order-lg-1">
                     <img src="img2.png" alt="" class="img-fluid" />
                 </div>
             </div>
 
             <div className="row px-5 py-5">
-                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-1 order-sm-1 order-lg-2">
                     <img src="img4.png" alt="" class="img-fluid" />
                 </div>
-                <div class="col-lg-6 col-m-6 col-s-12">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-1">
                     <h2>Training & Upskilling</h2>
                     <div>
                         <div>

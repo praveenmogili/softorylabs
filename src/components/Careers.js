@@ -7,7 +7,7 @@ const Careers = () => {
     return(
         <>
             <div className="row px-5 py-5">
-                <div class="col-lg-6 col-m-6 col-s-12">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-1">
                     <h2>The Softory Labs Promise</h2>
 
                     <div>
@@ -41,7 +41,7 @@ const Careers = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-m-6 col-s-12 d-none d-lg-block">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-1 order-sm-1">
                     <img src="img1.png" alt="" class="img-fluid" />
                 </div>
             </div>
