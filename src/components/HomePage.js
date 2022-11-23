@@ -21,7 +21,7 @@ const  Home = () => {
             </div>
 
             <div className="row px-5 py-5">
-                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-1">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-1 py-5">
                     <h2>What We Offer</h2>
                     <p class="text-muted mb-0">
                         Softory Labs was born in an idea that we can offer Units of software in a factory, bringing Operational Excellence to software development and support just the same as we have brought automation and standardization in
@@ -112,7 +112,7 @@ const  Home = () => {
             </div>
 
             <div className="row px-5 py-5">
-                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-1">
+                <div class="col-lg-6 col-m-6 col-s-12 order-md-2 order-sm-2 order-lg-1 py-5">
                     <h2>A Softory Labs Unit</h2>
                     <p class="text-muted mb-0">
                     Every unit optimally designed for small agile teams, waiting for your business stakeholder to join and complete the team!

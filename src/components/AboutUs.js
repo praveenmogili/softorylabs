@@ -7,7 +7,7 @@ const AboutUs = () => {
                 <div class="main-head-background">
                     <div class="container py-5">
                         <div class="row h-100 align-items-center py-5">
-                            <div class="col-lg-6 order-md-2 order-sm-2 order-lg-1">
+                            <div class="col-lg-6 order-md-2 order-sm-2 order-lg-1 py-5">
                                 <div>
                                     <img className="main-content-list-icon" src="check-icon.svg" alt="main-content-list-icon" />
                                     <p className="text-muted p-content">World Class Talent with Science / Engineering Graduates</p>
@@ -62,7 +62,7 @@ const AboutUs = () => {
                         <div class="col-lg-6 px-5 mx-auto order-lg-1">
                             <img src="https://bootstrapious.com/i/snippets/sn-about/img-1.jpg" alt="" class="img-fluid mb-4 mb-lg-0"/>
                         </div>
-                        <div class="col-lg-6 order-lg-2">
+                        <div class="col-lg-6 order-lg-2 py-5">
                             <h2 class="font-weight-light">Been There Done That!</h2>
                             <br/>
                             <div>
