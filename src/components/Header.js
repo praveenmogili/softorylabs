@@ -26,36 +26,34 @@ const Header = () => {
 
           <Offcanvas show={show} onHide={handleClose} responsive="lg" backdrop="true" placement='end'>
             <Offcanvas.Header closeButton>
-              <LinkContainer to={"/"}>
-                <Offcanvas.Title>Softory Labs</Offcanvas.Title>
-              </LinkContainer>
+              <Offcanvas.Title>Softory Labs</Offcanvas.Title>
             </Offcanvas.Header>
             
             <Offcanvas.Body>
               <Nav className="ms-auto" style={{ width: "100%" }}>
 
                 <LinkContainer to="/">
-                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>Home</strong></Nav.Link>
+                    <Nav.Link onClick={handleClose}><span className='px-2' style={{"font-size": "18px"}}>Home</span></Nav.Link>
                 </LinkContainer>
 
                 <LinkContainer to="/about">
-                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>Why Us</strong></Nav.Link>
+                    <Nav.Link onClick={handleClose}><span className='px-2' style={{"font-size": "18px"}}>Why Us</span></Nav.Link>
                 </LinkContainer>
 
                 <LinkContainer to="/story">
-                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>Our Story</strong></Nav.Link>
+                    <Nav.Link onClick={handleClose}><span className='px-2' style={{"font-size": "18px"}}>Our Story</span></Nav.Link>
                 </LinkContainer>
 
                 <LinkContainer to="/howwedoit">
-                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>How We Do It</strong></Nav.Link>
+                    <Nav.Link onClick={handleClose}><span className='px-2' style={{"font-size": "18px"}}>How We Do It</span></Nav.Link>
                 </LinkContainer>
 
                 <LinkContainer to="/careers">
-                    <Nav.Link><strong className='px-2' style={{"font-size": "15px"}}>Careers</strong></Nav.Link>
+                    <Nav.Link onClick={handleClose}><span className='px-2' style={{"font-size": "18px"}}>Careers</span></Nav.Link>
                 </LinkContainer>
 
                 <LinkContainer to="/contact">
-                    <Button  variant='success'><strong>Contact Us</strong></Button>
+                    <Button onClick={handleClose} variant='success' className='mx-2'><strong>Contact Us</strong></Button>
                 </LinkContainer>
 
               </Nav>
