@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/home.css'
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 const Careers = () => {
 
@@ -221,6 +222,46 @@ const Careers = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="row px-5 py-5 main-head-background">
+                <h2 className='text-center'>Positions</h2>
+
+                <div className='d-block py-3'>
+                    <Link to="/jobs/1"><h5>Cloud Engineer</h5></Link>
+                    <div>
+                        <span className='text-muted'>Hyderabad, India</span>
+                    </div>
+                </div>
+
+                <div className='d-block py-3'>
+                    <Link to="/jobs/2"><h5>Senior Oracle Database Administrator</h5></Link>
+                    <div>
+                        <span className='text-muted'>Hyderabad, India</span>
+                    </div>
+                </div>
+
+                <div className='d-block py-3'>
+                    <Link to="/jobs/3"><h5>PeopleSoft Database Administrator</h5></Link>
+                    <div>
+                        <span className='text-muted'>Hyderabad, India</span>
+                    </div>
+                </div>
+
+                <div className='d-block py-3'>
+                    <Link to="/jobs/4"><h5>Principal DevOps Engineer</h5></Link>
+                    <div>
+                        <span className='text-muted'>Hyderabad, India</span>
+                    </div>
+                </div>
+
+                <div className='d-block py-3'>
+                    <Link to="/jobs/5"><h5>Principal Software Developer</h5></Link>
+                    <div>
+                        <span className='text-muted'>Hyderabad, India</span>
+                    </div>
+                </div>
+            </div>
+
         </>
     )
 };

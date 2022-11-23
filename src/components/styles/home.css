@@ -81,9 +81,9 @@
     transform: translate(-50%, -50%);
 }
 
-ul {
+/* ul {
     list-style-image: url('../../../public/check-icon.svg');
-}
+} */
 
 .list-icon {
     background-color: white;
